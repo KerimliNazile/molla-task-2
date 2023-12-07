@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Columns from './components/columns'
+import Columns from './components/Columns/index'
+import { WishlistProvider } from './Context/indexwishlist'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-        <WishlistProvider>
-     <Columns></Columns>
-    </WishlistProvider>
+      <WishlistProvider>
+        <Columns></Columns>
+      </WishlistProvider>
     </>
   )
 }

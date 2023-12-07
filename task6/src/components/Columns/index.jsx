@@ -448,7 +448,7 @@ function Columns() {
                                         checked={selectedBrand.includes("RiverIsland")}
                                         onChange={() => applyBrandFilter("RiverIsland")}
                                     />
-                                   
+
                                     Geox
                                 </div>
                             </label>
@@ -485,7 +485,7 @@ function Columns() {
                         <p>Sort by:</p>
                         <div className="toolbox_right">
                             <div className="toolbox_sort">
-                             
+
                                 <div className="select-custom">
                                     <select name="sortby" id="sortby" className='sort_control'>
                                         <option value="popularty">Most Popular</option>
@@ -494,7 +494,7 @@ function Columns() {
                                     </select>
                                 </div>
                             </div>
-                            </div>
+                        </div>
                         <button onClick={sortByTwo}>
                             <svg width="10" height="10">
                                 <rect x="0" y="0" width="4" height="4"></rect>

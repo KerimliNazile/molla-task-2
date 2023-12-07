@@ -5,7 +5,7 @@ function usetoFetch() {
 
     const fetchData = async function() {
         try {
-            const response = await fetch(" http://localhost:3000/show")
+            const response = await fetch("http://localhost:3000/show")
             const jsonData = await response.json()
             setData(jsonData)
         } catch (error) {
